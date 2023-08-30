@@ -7,7 +7,7 @@
             
             var answer = 4; //inferred typing
 
-            string response =  answer <9 ?  " answer is less than nine" : "answer is greater than or equal to nine";
+            var response =  answer <9 ?  " answer is less than nine" : "answer is greater than or equal to nine";
 
             Console.WriteLine($" {response} ");
             //if (answer < 9)
